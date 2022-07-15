@@ -7,7 +7,7 @@ import Repositories from "./Pages/Repositories.jsx";
 
 function App() {
 	const [user, setUser] = useState({});
-	//el token vence el 9 de octubre 2022
+	//el token de Authorization vence el 10 de octubre 2022
 	const userName = "GritiusX";
 	const githubURL = `https://api.github.com/users/${userName}`;
 	console.log(process.env);
